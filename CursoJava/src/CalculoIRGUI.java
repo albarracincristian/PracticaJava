@@ -12,6 +12,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
+// creacion de una app para calcular renta anual impuesto y deduccion con un ejemplo de interfaz usando gpt
+
 public class CalculoIRGUI extends Application {
     private TextField rentaAnualField;
     private Label impuestoLabel;
