@@ -12,10 +12,9 @@ public class Gerente extends Funcionario {
         this.clave = clave;
     }
 
-    public double getBonificacion() {
-        System.out.println("Llamando metodo del Gerente");
-        return super.getBonificacion() + super.getSalario();
-    }
+//    public double getBonificacion() {
+//        return this.salario;
+//    }
 
     public boolean iniciarSesion(String clave) {
         if(this.clave == clave) {
